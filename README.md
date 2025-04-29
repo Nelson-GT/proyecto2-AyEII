@@ -1,1 +1,2 @@
-# proyecto2-AyEII
+>[!NOTE]
+>Elaborado por: Juan Diego Cordero y Nelson Guerrero

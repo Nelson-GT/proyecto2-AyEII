@@ -1,0 +1,18 @@
+{
+  "enabled_commands": [
+    "log",
+    "checkout",
+    "status",
+    "add",
+    "commit",
+    "init",
+    "branch",
+    "pr",
+    "merge",
+    "contributors",
+    "add-contributor",
+    "remove-contributor",
+    "find-contributor",
+    "role"
+  ]
+}
