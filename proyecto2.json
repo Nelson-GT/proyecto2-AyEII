@@ -1,0 +1,138 @@
+{
+    "name": "proyecto2",
+    "path": "/ruta/",
+    "current_branch": "main",
+    "head": "fc739b469ecad408e92c0f13698c20107a87a455",
+    "detached_head": false,
+    "pr_counter": 0,
+    "branches": {
+        "main": "fc739b469ecad408e92c0f13698c20107a87a455"
+    },
+    "commits": {
+        "fc739b469ecad408e92c0f13698c20107a87a455": {
+            "id": "fc739b469ecad408e92c0f13698c20107a87a455",
+            "message": "\"primer",
+            "timestamp": "2025-04-29T11:30:37.001333",
+            "author_email": "user@example.com",
+            "parent_id": null,
+            "changes": {
+                "README.md": ">[!NOTE]\n>Elaborado por: Juan Diego Cordero y Nelson Guerrero"
+            },
+            "branch": "main"
+        }
+    },
+    "working_directory": {
+        "README.md": ">[!NOTE]\n>Elaborado por: Juan Diego Cordero y Nelson Guerrero"
+    },
+    "staged_files": [],
+    "pull_requests": [],
+    "branch_tree": {
+        "name": "main",
+        "merged": false,
+        "commits": [],
+        "children": []
+    },
+    "contributors": {
+        "name": "nelson",
+        "email": "user@example.com",
+        "role": "developer",
+        "left": {
+            "name": "juan",
+            "email": "juan@example.com",
+            "role": "developer",
+            "left": null,
+            "right": null
+        },
+        "right": {
+            "name": "nelson",
+            "email": "user@example.com",
+            "role": "guest",
+            "left": null,
+            "right": {
+                "name": "nelson",
+                "email": "user@example.com",
+                "role": "developer",
+                "left": null,
+                "right": null
+            }
+        }
+    },
+    "file_btree": [
+        {
+            "key": "00b05ed3e286fa0149d2c4a58fa82af4b9ceabaf",
+            "value": [
+                "README.md",
+                ">[!NOTE]\n>Elaborado por: Juan Diego Cordero y Nelson Guerrero"
+            ],
+            "level": 0
+        },
+        {
+            "key": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "value": [
+                "valor.txt",
+                ""
+            ],
+            "level": 0
+        },
+        {
+            "key": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "value": [
+                "valor.txt",
+                ""
+            ],
+            "level": 0
+        },
+        {
+            "key": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "value": [
+                "valor2.txt",
+                ""
+            ],
+            "level": 0
+        },
+        {
+            "key": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "value": [
+                "valor.txt",
+                ""
+            ],
+            "level": 0
+        }
+    ],
+    "role_manager": {
+        "roles": {
+            "admin": [
+                "push",
+                "branch",
+                "merge",
+                "pull"
+            ],
+            "maintainer": [
+                "push",
+                "merge",
+                "pull"
+            ],
+            "developer": [
+                "push",
+                "pull"
+            ],
+            "guest": [
+                "pull"
+            ]
+        },
+        "user_roles": [
+            [
+                "admin@example.com",
+                "admin"
+            ],
+            [
+                "user@example.com",
+                "developer"
+            ],
+            [
+                "juan@example.com",
+                "developer"
+            ]
+        ]
+    }
+}
